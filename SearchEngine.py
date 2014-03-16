@@ -8,10 +8,8 @@ from PorterStemmer import *    #词干提取
 import CRFPP   #中文分词
 import codecs
 import sys   
-reload(sys) 
-sys.setdefaultencoding('utf-8')   
-
 import NeuralNetwork  #导入神经网络模块
+
 neural_network=NeuralNetwork.SearchNet("db_network.db")
 
 
